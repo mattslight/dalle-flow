@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '1dec9047-1085-44db-a07a-cac6458150ac'
   imageRepository: 'mattslightdalleflow'
-  containerRegistry: 'kpsworld.azurecr.io'
+  containerRegistry: 'dalle.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
